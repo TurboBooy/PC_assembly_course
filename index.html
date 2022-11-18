@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pc-trainee</title>
+	<link rel="stylesheet" href="style\style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<a href=""><img src="img/Group.svg" alt="" class="menu__logo"></a>
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#progress" class="menu__link text">Курсы</a></li>
+						<li class="menu__item"><a href="#about" class="menu__link text">Главная</a></li>
+						<li class="menu__item"><a href="#learning" class="menu__link text">Расписание</a></li>
+						<li class="menu__item"><a href="#teachers" class="menu__link text">Преподаватели</a></li>
+						<li class="menu__item"><a href="#contact" class="menu__link text">Рассылка</a></li>
+						<li class="menu__item"><a href="#contact" class="menu__link text">Контакты</a></li>
+					</ul>
+					<button class="menu__button text">Зайти в кабинет</button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__container">
+				<div class="main__logo">
+					<h1 class="title title__main">Первый курс по компьютерной сборке</h1>
+					<div class="timer">
+						<div class="timer__items">
+							<div class="timer__item timer__days">00</div>
+							<div class="timer__item timer__hours">00</div>
+							<div class="timer__item timer__minutes">00</div>
+							<div class="timer__item timer__seconds">00</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav id="progress"></nav>
+			<div class="main__progress">
+				<div class="progress__container">
+					<button class="button__logo">Заказать курс</button>
+					<ul class="progress__list">
+						<li class="progress__item"><span>Учеников всего: </span> 200</li>
+						<li class="progress__item"><span>Успешно закончили курс: </span> 190</li>
+					</ul>
+					<ul class="progress__list">
+						<li class="progress__item"><span>Заработано учениками: </span> 400 000$</li>
+						<li><progress class="progress__bar" value="40" max="100"></progress>.</li>
+					</ul>
+				</div>
+			</div>
+			<nav id="about"></nav>
+			<div class="main__info">
+				<div class="info__container">
+					<div class="info__about">
+						<div class="about__pc">
+							<div class="pc__image">
+								<img src="img/PC.png" alt="">
+							</div>
+						</div>
+						<div class="about__me">
+							<h1 class="title">Чем мы занимаемся?</h1>
+							<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et
+								feugiat elit
+								augue in suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum,
+								morbi.
+								Et neque, adipiscing sapien sem senectus praesent aenean consequat. Aenean facilisi turpis
+								aliquet
+								fringilla. Nunc sem felis sed interdum feugiat mattis elit, sollicitudin. Quam pharetra rhoncus
+								risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum placerat nisi,
+								lobortis. </p>
+						</div>
+					</div>
+					<div class="info__fast-start">
+						<div class="start__title">
+							<h1 class="title">Быстрый старт</h1>
+							<span class="text start__text">Больше 90% учеников прошли полный курс и смогли собрать свой первый
+								компьютер</span>
+						</div>
+						<div class="start__development">
+							<table class="development">
+								<tbody class="development__item">
+									<tr class="title">
+										<td>100%</td>
+										<td>75%</td>
+										<td>50%</td>
+										<td>Итог</td>
+									</tr>
+									<tr class="steps">
+										<td>
+											<p class="steps__100"></p>
+										</td>
+										<td>
+											<p class="steps__75"></p>
+										</td>
+										<td>
+											<p class="steps__50"></p>
+										</td>
+										<td>
+											<p class="steps__total"></p>
+										</td>
+									</tr>
+									<tr class="text">
+										<td><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit
+												quisque
+												accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus.
+												Placerat
+												dui.</span></td>
+										<td><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit
+												quisque
+												accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus.
+												Placerat
+												dui.</span></td>
+										<td><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit
+												quisque
+												accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus.
+												Placerat
+												dui.</span></td>
+										<td><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit
+												quisque
+												accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus.
+												Placerat
+												dui.</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="info__profession">
+						<h1 class="title">Получите профессию прямо сейчас</h1>
+						<div class="profession__terms">
+							<ul class="terms__list">
+								<li class="terms__item"><img src="/img/icon-1.svg" alt=""></li>
+								<li class="terms__item sub-title">Только практические навыки в работе</li>
+								<li class="terms__item text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Netus eget
+										velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus.
+										Placerat dui.</span></li>
+							</ul>
+							<ul class="terms__list">
+								<li class="terms__item"><img src="/img/icon-2.svg" </li>
+								<li class="terms__item sub-title">Работа на самом современном оборудовании</li>
+								<li class="terms__item text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Netus eget
+										velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus.
+										Placerat dui.</span></li>
+							</ul>
+							<ul class="terms__list">
+								<li class="terms__item"><img src="/img/icon-3.svg" </li>
+								<li class="terms__item sub-title">Сертификация по окончании обучения</li>
+								<li class="terms__item text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Netus eget
+										velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus.
+										Placerat dui.</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="info__partners">
+						<h1 class="title">Партнеры - топовые бренды</h1>
+						<table class="partners__list">
+							<tbody>
+								<tr class="first__list">
+									<td class="partners__item"></td>
+									<td class="partners__item"></td>
+									<td class="partners__item"></td>
+									<td class="partners__item"></td>
+								</tr>
+								<tr class="last__list">
+									<td class="partners__item"></td>
+									<td class="partners__item"></td>
+									<td class="partners__item"></td>
+									<td class="partners__item"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="info__learning">
+						<nav id="learning"></nav>
+						<picture>
+							<img src="/img/Ellipse.png" alt="">
+						</picture>
+						<div class="learning__title">
+							<h1 class="title">Программа обучения</h1>
+							<span class="text">Больше 90% учеников прошли полный курс и смогли собрать свой первый
+								компьютер</span>
+						</div>
+						<div class="learning__timetable">
+							<ul class="timetable__list">
+								<li class="timetable__item text"><span>Неделя №1</span>Красивая часть курса, которая помогает в
+									успехе</li>
+								<li class="timetable__item text"><span>Неделя №3</span>Красивая часть курса, которая помогает в
+									успехе</li>
+								<li class="timetable__item text"><span>Неделя №5</span>Красивая часть курса, которая помогает в
+									успехе</li>
+								<li class="timetable__item text"><span>Неделя №7</span>Красивая часть курса, которая помогает в
+									успехе</li>
+							</ul>
+							<ul class="timetable__list">
+								<li class="timetable__item text"><span>Неделя №2</span>Красивая часть курса, которая помогает в
+									успехе</li>
+								<li class="timetable__item text"><span>Неделя №4</span>Красивая часть курса, которая помогает в
+									успехе</li>
+								<li class="timetable__item text"><span>Неделя №6</span>Красивая часть курса, которая помогает в
+									успехе</li>
+							</ul>
+						</div>
+					</div>
+					<div class="info__teachers">
+						<nav id="teachers"></nav>
+						<h1 class="title"><img src="/img/Ellipse.png" alt=""> Ваши Преподаватели</h1>
+						<div class="teachers__block">
+							<ul class="teachers__list">
+								<li class="teachers__item"> <img src="/img/Teachers1.jpg" class="img__teachers" alt=""></li>
+								<li class="teachers__item sub-title">Дмитрий иванов</li>
+								<li class="teachers__item text"><span>Специалист по видеокартам</span></li>
+								<li class="teachers__item"><button class="teachers__buttom">Биография</button></li>
+							</ul>
+							<ul class="teachers__list">
+								<li class="teachers__item"> <img src="/img/Teachers2.jpg" class="img__teachers" alt=""></li>
+								<li class="teachers__item sub-title">Дмитрий иванов</li>
+								<li class="teachers__item text"><span>Специалист по видеокартам</span></li>
+								<li class="teachers__item"><button class="teachers__buttom">Биография</button></li>
+							</ul>
+							<ul class="teachers__list">
+								<li class="teachers__item"> <img src="/img/Teachers3.jpg" class="img__teachers" alt=""></li>
+								<li class="teachers__item sub-title">Дмитрий иванов</li>
+								<li class="teachers__item text"><span>Специалист по видеокартам</span></li>
+								<li class="teachers__item"><button class="teachers__buttom">Биография</button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<nav id="contact"></nav>
+			<div class="footer__container">
+				<div class="contacts">
+					<h1 class="title">Статьи каждую неделю</h1>
+					<p class="text"><span>Больше 90% учеников прошли полный курс и смогли собрать свой первый
+							компьютер</span></p>
+					<div class="subscribe text">
+						<input type="email" placeholder="E-mail" class="subscribe__input">
+						<button class="subscribe__button">Подписаться</button>
+					</div>
+					<ul class="contacts__list">
+						<li class="contacts__item"><a href="" class="contacts__link"><img src="/img/vk.svg" alt=""></a>
+						</li>
+						<li class="contacts__item"><a href="" class="contacts__link"><img src="/img/youtube.svg" alt=""></a>
+						</li>
+						<li class="contacts__item"><a href="" class="contacts__link"><img src="/img/facebook.svg" alt=""></a>
+						</li>
+						<li class="contacts__item"><a href="" class="contacts__link"><img src="/img/instagram.svg" alt=""></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
